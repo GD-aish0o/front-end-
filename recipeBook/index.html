@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+</head>
+<body>
+    <div class="book">
+        <!-- Cover Page -->
+        <div class="page cover" id="cover">
+            <div class="cover-content">
+                <h1>Cook'n Bake!!</h1>
+                <p>Quick yet Yummy Recipes You Need to Know</p>
+            </div>
+        </div>
+        <!-- Left Page -->
+        <div class="page left" id="left-page" onclick="flipPage('right')">
+            <img src="<!-- image src-->" alt="Alfredo Pasta" class="dish-image">
+            <div class="recipe-name">Alfredo Pasta</div>
+        </div>
+        <!-- Right Page -->
+        <div class="page right" id="right-page" onclick="flipPage('left')">
+            <div class="recipe-details">
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>200g fettuccine</li>
+                    <li>100g butter</li>
+                    <li>150g Parmesan cheese</li>
+                    <li>1 cup heavy cream</li>
+                    <li>2 garlic cloves, minced</li>
+                    <li>Salt and pepper to taste</li>
+                </ul>
+                <h2>Cooking Instructions</h2>
+                <ol>
+                    <li>Cook the fettuccine according to package instructions.</li>
+                    <li>In a pan, melt the butter and sauté the garlic until fragrant.</li>
+                    <li>Add the heavy cream and bring to a simmer.</li>
+                    <li>Stir in the Parmesan cheese until melted and smooth.</li>
+                    <li>Toss the cooked fettuccine in the sauce, season with salt and pepper, and serve.</li>
+                </ol>
+                <h2>Serving Suggestions</h2>
+                <p>Serve with a sprinkle of extra Parmesan and a side of garlic bread.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Recipe Book. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
